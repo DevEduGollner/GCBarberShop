@@ -1,24 +1,23 @@
 import "./styles.css";
 import imgLogo from "../../assets/GCBarber-Logo.png";
 import menuItem from "../../assets/menu-items-white.svg";
-import closeMenuItem from '../../assets/close-items-white.svg';
+import closeMenuItem from "../../assets/close-items-white.svg";
 
 export default function Header() {
+  function menuShow() {
+    const menuMobile = document.querySelector(
+      ".mobile-menu"
+    ) as HTMLImageElement | null;
+    const icon = document.querySelector(".icon") as HTMLImageElement | null;
 
- function menuShow() {
-    const menuMobile = document.querySelector('.mobile-menu') as HTMLImageElement | null;;
-    const icon = document.querySelector('.icon') as HTMLImageElement | null;
-
-    if (menuMobile?.classList.contains('open')) {
-        menuMobile.classList.remove('open');
-    icon?.setAttribute('src', menuItem);
+    if (menuMobile?.classList.contains("open")) {
+      menuMobile.classList.remove("open");
+      icon?.setAttribute("src", menuItem);
+    } else {
+      menuMobile?.classList.add("open");
+      icon?.setAttribute("src", closeMenuItem);
     }
-    else {
-        menuMobile?.classList.add('open');
-        icon?.setAttribute('src', closeMenuItem);
-}
-}
-
+  }
 
   return (
     <header>
