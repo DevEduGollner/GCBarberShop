@@ -1,4 +1,6 @@
 import './styles.css';
+import imgLogo from '../../assets/GCBarber-Logo.png';
+import menuItem from '../../assets/menu-items-white.svg';
 
 export default function Header() {
 
@@ -6,13 +8,13 @@ export default function Header() {
         <header>
         <nav className="nav-bar container">
           <div className="logo">
-            <img src="assets/GCBarber-Logo.png" alt="" />
+          <img src={imgLogo} alt="Logo" />
           </div>
   
           <div className="list-navegation">
             <ul>
               <li className="nav-item"><a href="">Inicio</a></li>
-              <li className="nav-item"><a href="#sla123">Serviços</a></li>
+              <li className="nav-item"><a href="">Serviços</a></li>
               <li className="nav-item"><a href="">Sobre Nós</a></li>
               <li className="nav-item"><a href="">Fale Conosco</a></li>
             </ul>
@@ -22,7 +24,7 @@ export default function Header() {
             <button >
               <img
                 className="icon"
-                src="assets/menu-items-white.svg"
+                src={menuItem}
                 alt="Abrir Opções"
               />
             </button>
