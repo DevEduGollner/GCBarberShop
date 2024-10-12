@@ -1,44 +1,72 @@
-import './styles.css';
-import imgLogo from '../../assets/GCBarber-Logo.png';
-import menuItem from '../../assets/menu-items-white.svg';
+import "./styles.css";
+import imgLogo from "../../assets/GCBarber-Logo.png";
+import menuItem from "../../assets/menu-items-white.svg";
+import closeMenuItem from '../../assets/close-items-white.svg';
 
 export default function Header() {
 
-    return (
-        <header>
-        <nav className="nav-bar container">
-          <div className="logo">
+ function menuShow() {
+    const menuMobile = document.querySelector('.mobile-menu') as HTMLImageElement | null;;
+    const icon = document.querySelector('.icon') as HTMLImageElement | null;
+
+    if (menuMobile?.classList.contains('open')) {
+        menuMobile.classList.remove('open');
+    icon?.setAttribute('src', menuItem);
+    }
+    else {
+        menuMobile?.classList.add('open');
+        icon?.setAttribute('src', closeMenuItem);
+}
+}
+
+
+  return (
+    <header>
+      <nav className="nav-bar container">
+        <div className="logo">
           <img src={imgLogo} alt="Logo" />
-          </div>
-  
-          <div className="list-navegation">
-            <ul>
-              <li className="nav-item"><a href="">Inicio</a></li>
-              <li className="nav-item"><a href="">Serviços</a></li>
-              <li className="nav-item"><a href="">Sobre Nós</a></li>
-              <li className="nav-item"><a href="">Fale Conosco</a></li>
-            </ul>
-          </div>
-  
-          <div className="mobile-menu-icon">
-            <button >
-              <img
-                className="icon"
-                src={menuItem}
-                alt="Abrir Opções"
-              />
-            </button>
-          </div>
-        </nav>
-  
-        <div className="mobile-menu">
+        </div>
+
+        <div className="list-navegation">
           <ul>
-            <li className="nav-item"><a href="">Inicio</a></li>
-            <li className="nav-item"><a href="">Serviços</a></li>
-            <li className="nav-item"><a href="">Sobre Nós</a></li>
-            <li className="nav-item"><a href="">Fale Conosco</a></li>
+            <li className="nav-item">
+              <a href="">Inicio</a>
+            </li>
+            <li className="nav-item">
+              <a href="">Serviços</a>
+            </li>
+            <li className="nav-item">
+              <a href="">Sobre Nós</a>
+            </li>
+            <li className="nav-item">
+              <a href="">Fale Conosco</a>
+            </li>
           </ul>
         </div>
-      </header>
-    );
+
+        <div className="mobile-menu-icon">
+          <button onClick={menuShow}>
+            <img className="icon" src={menuItem} alt="Abrir Opções" />
+          </button>
+        </div>
+      </nav>
+
+      <div className="mobile-menu">
+        <ul>
+          <li className="nav-item">
+            <a href="">Inicio</a>
+          </li>
+          <li className="nav-item">
+            <a href="">Serviços</a>
+          </li>
+          <li className="nav-item">
+            <a href="">Sobre Nós</a>
+          </li>
+          <li className="nav-item">
+            <a href="">Fale Conosco</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+  );
 }
