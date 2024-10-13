@@ -1,9 +1,10 @@
-import './styles.css';
+import ExampleHaircuts from "../ExampleHaircuts";
+import "./styles.css";
 
 export default function SectionHaircuts() {
-return (
-    <section>
-        <h1>Cortes de Cabelo</h1>
+  return (
+    <section className="section-haircuts">
+      <ExampleHaircuts />
     </section>
-);
+  );
 }
