@@ -1,11 +1,15 @@
 import './styles.css';
+import imgService1 from '../../assets/corte-de-cabelo-1.jpg';
+import imgService2 from '../../assets/corte-de-cabelo-7.jpg';
+import imgService3 from '../../assets/corte-de-cabelo-4.jpg';
+import imgService4 from '../../assets/corte-de-cabelo-6.jpg';
 
 export default function ServicesOptions() {
     return(
         <div className="services-options">
           <div className="services-item">
             <div className="img-services">
-              <img src="assets/corte-de-cabelo-1.jpg" alt="Corte de Cabelo" />
+              <img src={imgService1} alt="Corte de Cabelo" />
             </div>
             <div className="description-services">
               <h3>Corte de Cabelo</h3>
@@ -14,7 +18,7 @@ export default function ServicesOptions() {
           </div>
           <div className="services-item">
             <div className="img-services">
-              <img src="assets/corte-de-cabelo-7.jpg" alt="Descoloração" />
+              <img src={imgService2} alt="Descoloração" />
             </div>
             <div className="description-services">
               <h3>Descoloração</h3>
@@ -23,7 +27,7 @@ export default function ServicesOptions() {
           </div>
           <div className="services-item">
             <div className="img-services">
-              <img src="assets/corte-de-cabelo-4.jpg" alt="Pigmentação" />
+              <img src={imgService3} alt="Pigmentação" />
             </div>
             <div className="description-services">
               <h3>Pigmentação</h3>
@@ -32,7 +36,7 @@ export default function ServicesOptions() {
           </div>
           <div className="services-item">
             <div className="img-services">
-              <img src="assets/corte-de-cabelo-6.jpg" alt="Luzes/Reflexo" />
+              <img src={imgService4} alt="Luzes/Reflexo" />
             </div>
             <div className="description-services">
               <h3>Luzes/Reflexo</h3>

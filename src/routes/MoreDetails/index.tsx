@@ -1,4 +1,5 @@
 import Informations from '../../components/Informations';
+import SectionServices from '../../components/SectionServices';
 import './styles.css';
 
 export default function MoreDetails() {
@@ -6,6 +7,7 @@ export default function MoreDetails() {
     <main>
     <h1>GC Barber Shop</h1>
 <Informations />
+<SectionServices />
     </main>
     );
 }
