@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Button from "../Button";
 import "./styles.css";
 
@@ -10,9 +11,9 @@ export default function IntroductionDescription() {
         então cola na GC BARBER SHOP.
       </p>
       <p>Clique no botão abaixo para mais detalhes:</p>
-      <a href="">
-        <Button />
-      </a>
+     <Link to="/more-details">
+     <Button />
+     </Link>
     </div>
   );
 }
