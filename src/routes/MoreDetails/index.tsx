@@ -2,6 +2,10 @@ import './styles.css';
 
 export default function MoreDetails() {
     return (
-        <h1>Olá Mundo</h1>
+    <main>
+    <h1>GC Barber Shop</h1>
+
+
+    </main>
     );
 }
