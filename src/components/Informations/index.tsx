@@ -5,10 +5,8 @@ import "./styles.css";
 export default function Informations() {
   return (
     <section className="information-introduction">
-      <div className="container">
         <InformationBarber />
         <InformationBarberShop />
-      </div>
     </section>
   );
 }
