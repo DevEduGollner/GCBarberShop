@@ -5,7 +5,6 @@ export default function MoreDetails() {
     <main>
     <h1>GC Barber Shop</h1>
 
-
     </main>
     );
 }
