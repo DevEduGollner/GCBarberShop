@@ -1,17 +1,18 @@
-import './styles.css';
+import Button from "../Button";
+import "./styles.css";
 
 export default function IntroductionDescription() {
-    return (
-        <div className="introduction-description">
-        <h3>GC Barber Shop</h3>
-        <p>
-          Está preparado para o MELHOR CORTE de sua vida junto de muita
-          resenha? então cola na GC BARBER SHOP.
-        </p>
-        <p>Clique no botão abaixo para mais detalhes:</p>
-        <a href="">
-          <button>Mais detalhes</button>
-        </a>
-      </div>
-    );
+  return (
+    <div className="introduction-description">
+      <h3>GC Barber Shop</h3>
+      <p>
+        Está preparado para o MELHOR CORTE de sua vida junto de muita resenha?
+        então cola na GC BARBER SHOP.
+      </p>
+      <p>Clique no botão abaixo para mais detalhes:</p>
+      <a href="">
+        <Button />
+      </a>
+    </div>
+  );
 }
