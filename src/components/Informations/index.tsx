@@ -1,7 +1,14 @@
-import './styles.css';
+import InformationBarber from "../InformationBarber";
+import InformationBarberShop from "../InformationBarberShop";
+import "./styles.css";
 
 export default function Informations() {
-    return (
-        <h1>Informations</h1>
-    );
+  return (
+    <section className="information-introduction">
+      <div className="container">
+        <InformationBarber />
+        <InformationBarberShop />
+      </div>
+    </section>
+  );
 }
