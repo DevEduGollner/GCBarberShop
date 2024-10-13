@@ -16,10 +16,6 @@ export default function ExampleHaircuts() {
     <input type="radio" name="slide" id="slide4" />
 
     <div className="slide slide1">
-        <img src="" alt="Corte de Cabelo" />
-    </div>
-
-    <div className="slide">
         <img src={imgSlide1} alt="Corte de Cabelo" />
     </div>
 
@@ -29,6 +25,9 @@ export default function ExampleHaircuts() {
 
     <div className="slide">
         <img src={imgSlide3} alt="Corte de Cabelo" />
+    </div>
+
+    <div className="slide">
     </div>
 
     <div className="slide">
