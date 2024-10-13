@@ -1,4 +1,6 @@
 import Informations from '../../components/Informations';
+import SectionHaircuts from '../../components/SectionHaircuts';
+import SectionLocation from '../../components/SectionLocation';
 import SectionServices from '../../components/SectionServices';
 import './styles.css';
 
@@ -8,6 +10,8 @@ export default function MoreDetails() {
     <h1>GC Barber Shop</h1>
 <Informations />
 <SectionServices />
+<SectionHaircuts />
+<SectionLocation />
     </main>
     );
 }
