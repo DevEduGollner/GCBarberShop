@@ -3,6 +3,7 @@ import imgLogo from "../../assets/GCBarber-Logo.png";
 import menuItem from "../../assets/menu-items-white.svg";
 import closeMenuItem from "../../assets/close-items-white.svg";
 import { Link } from "react-router-dom";
+import InformationContact from "../InformationContact";
 
 export default function Header() {
   function menuShow() {
@@ -20,8 +21,14 @@ export default function Header() {
     }
   }
 
+  function contactsShow() {
+    const sectionContacts = document.querySelector(".informations-contact-container");
+    sectionContacts?.classList.add("active");
+    }
+  
   return (
-    <header>
+  <>
+   <header>
       <nav className="nav-bar container">
         <div className="logo">
           <img src={imgLogo} alt="Logo" />
@@ -39,7 +46,7 @@ export default function Header() {
               <a href="">Sobre Nós</a>
             </li>
             <li className="nav-item">
-              <a href="">Fale Conosco</a>
+              <a onClick={contactsShow}>Fale Conosco</a>
             </li>
           </ul>
         </div>
@@ -63,10 +70,14 @@ export default function Header() {
             <a href="">Sobre Nós</a>
           </li>
           <li className="nav-item">
-            <a href="">Fale Conosco</a>
+            <a onClick={contactsShow}>Fale Conosco</a>
           </li>
         </ul>
       </div>
     </header>
+    <InformationContact />
+  </>
+   
+
   );
 }

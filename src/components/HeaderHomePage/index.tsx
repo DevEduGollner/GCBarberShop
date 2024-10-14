@@ -28,7 +28,8 @@ export default function HeaderHomePage() {
 
 
   return (
-    <header>
+    <>
+     <header>
       <nav className="nav-bar container">
         <div className="logo">
           <img src={imgLogo} alt="Logo" />
@@ -62,7 +63,10 @@ export default function HeaderHomePage() {
           </li>
         </ul>
       </div>
-      <InformationContact />
+     
     </header>
+     <InformationContact />
+    </>
+   
   );
 }
