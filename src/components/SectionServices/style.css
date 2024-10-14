@@ -1,10 +1,10 @@
-.services-section {
+#services-section {
   text-align: center;
   padding: 10px;
   margin: 20px;
 }
 
-.services-section h2 {
+#services-section h2 {
   text-align: center;
   text-transform: uppercase;
   color: #d9d9d9;

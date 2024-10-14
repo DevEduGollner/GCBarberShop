@@ -32,7 +32,7 @@ export default function Header() {
               <a href="">Inicio</a>
             </li>
             <li className="nav-item">
-              <a href="">Serviços</a>
+              <a href="#services-section">Serviços</a>
             </li>
             <li className="nav-item">
               <a href="">Sobre Nós</a>
@@ -56,7 +56,7 @@ export default function Header() {
             <a href="">Inicio</a>
           </li>
           <li className="nav-item">
-            <a href="">Serviços</a>
+            <a href="#services-section">Serviços</a>
           </li>
           <li className="nav-item">
             <a href="">Sobre Nós</a>
