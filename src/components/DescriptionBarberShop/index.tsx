@@ -13,7 +13,7 @@ export default function DescriptionBarberShop() {
               A GC Barber Shop é uma barbearia fundada em 2024 que mesmo com
               pouco tempo vem conquistando o seu espaço no bairro aonde está
               localizada, em MARIA ORTIZ. E isso é devido ao grande carisma e
-              habilidades de Gerson Souza, que sempre dedicando e perseverante.{" "}
+              habilidades de Gerson Souza, que sempre foi dedicado e perseverante, com sua barbearia não será e nem está sendo diferente, venha já e por um ÓTIMO PREÇO garanta um corte de qualidade.
             </p>
           </div>
         </div>
@@ -22,13 +22,13 @@ export default function DescriptionBarberShop() {
           <div className="card-description-barber-shop-bottom-right">
             <p>
               Talvez você esteja se perguntando o por que deve escolher a GC
-              Barber Shop, então se liga só nos nossos diferenciais:{" "}
+              Barber Shop, então se liga só nos nossos diferenciais:
             </p>
             <br />
             <p>- Atendimento de qualidade.</p>
             <p>
-              - Preços ótimos.{" "}
-              <Link to="/more-details#section-services">
+              - Preços ótimos.
+              <Link to="/more-details">
                 Clique aqui para conferir os preços
               </Link>
               .

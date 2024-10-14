@@ -21,7 +21,7 @@ export default function ServicesOptions() {
               <img src={imgService2} alt="Descoloração" />
             </div>
             <div className="description-services">
-              <h3>Descoloração</h3>
+              <h3>Corte + Platinado</h3>
               <h4>R$ 100.00</h4>
             </div>
           </div>
@@ -30,7 +30,7 @@ export default function ServicesOptions() {
               <img src={imgService3} alt="Pigmentação" />
             </div>
             <div className="description-services">
-              <h3>Pigmentação</h3>
+              <h3>Corte + Pigmentação</h3>
               <h4>R$ 40.00</h4>
             </div>
           </div>
@@ -39,8 +39,8 @@ export default function ServicesOptions() {
               <img src={imgService4} alt="Luzes/Reflexo" />
             </div>
             <div className="description-services">
-              <h3>Luzes/Reflexo</h3>
-              <h4>R$ 60.00</h4>
+              <h3>Corte + Reflexo</h3>
+              <h4>R$ 80.00</h4>
             </div>
           </div>
         </div>

@@ -17,7 +17,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        <section className="home-page-description-barbershop">
+        <section id="home-page-description-barbershop">
 <DescriptionBarberShop />
 </section>
 

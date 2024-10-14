@@ -22,51 +22,56 @@ export default function HeaderHomePage() {
   }
 
   function contactsShow() {
-  const sectionContacts = document.querySelector(".informations-contact-container");
-  sectionContacts?.classList.add("active");
+    const sectionContacts = document.querySelector(
+      ".informations-contact-container"
+    );
+    sectionContacts?.classList.add("active");
   }
-
 
   return (
     <>
-     <header>
-      <nav className="nav-bar container">
-        <div className="logo">
-          <img src={imgLogo} alt="Logo" />
-        </div>
+      <header>
+        <nav className="nav-bar container">
+          <div className="logo">
+            <img src={imgLogo} alt="Logo" />
+          </div>
 
-        <div className="list-navegation">
+          <div className="list-navegation">
+            <ul>
+              <li className="nav-item">
+                <Link to="/more-details">Mais detalhes</Link>
+              </li>
+              <li className="nav-item">
+                <a href="#home-page-description-barbershop">Sobre Nós</a>
+              </li>
+              <li className="nav-item">
+                <a onClick={contactsShow}>Fale Conosco</a>
+              </li>
+            </ul>
+          </div>
+
+          <div className="mobile-menu-icon">
+            <button onClick={menuShow}>
+              <img className="icon" src={menuItem} alt="Abrir Opções" />
+            </button>
+          </div>
+        </nav>
+
+        <div className="mobile-menu">
           <ul>
-          <li className="nav-item">
-          <Link to="/more-details">Sobre nós</Link>
-          </li>
-          <li className="nav-item">
-            <a onClick={contactsShow}>Fale Conosco</a>
-          </li>
+            <li className="nav-item">
+              <Link to="/more-details">Mais detalhes</Link>
+            </li>
+            <li className="nav-item">
+              <a href="#home-page-description-barbershop">Sobre Nós</a>
+            </li>
+            <li className="nav-item">
+              <a onClick={contactsShow}>Fale Conosco</a>
+            </li>
           </ul>
         </div>
-
-        <div className="mobile-menu-icon">
-          <button onClick={menuShow}>
-            <img className="icon" src={menuItem} alt="Abrir Opções" />
-          </button>
-        </div>
-      </nav>
-
-      <div className="mobile-menu">
-        <ul>
-          <li className="nav-item">
-            <a href="">Sobre Nós</a>
-          </li>
-          <li className="nav-item">
-            <a onClick={contactsShow}>Fale Conosco</a>
-          </li>
-        </ul>
-      </div>
-     
-    </header>
-     <InformationContact />
+      </header>
+      <InformationContact />
     </>
-   
   );
 }
