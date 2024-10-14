@@ -1,5 +1,6 @@
 import DescriptionBarberShop from "../../components/DescriptionBarberShop";
 import Feedbacks from "../../components/Feedbacks";
+import Footer from "../../components/Footer";
 import HeaderHomePage from "../../components/HeaderHomePage";
 import InformationContact from "../../components/InformationContact";
 import IntroductionDescription from "../../components/IntroductionDescription";
@@ -28,7 +29,9 @@ export default function HomePage() {
 
   
       </main>
+      <Footer />
       <InformationContact />
+
     </>
   );
 }
