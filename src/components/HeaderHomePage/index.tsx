@@ -2,6 +2,7 @@ import "./styles.css";
 import imgLogo from "../../assets/GCBarber-Logo.png";
 import menuItem from "../../assets/menu-items-white.svg";
 import closeMenuItem from "../../assets/close-items-white.svg";
+import { Link } from "react-router-dom";
 
 export default function HeaderHomePage() {
   function menuShow() {
@@ -29,7 +30,7 @@ export default function HeaderHomePage() {
         <div className="list-navegation">
           <ul>
           <li className="nav-item">
-            <a href="">Sobre Nós</a>
+          <Link to="/more-details">Sobre nós</Link>
           </li>
           <li className="nav-item">
             <a href="">Fale Conosco</a>

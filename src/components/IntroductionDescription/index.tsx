@@ -11,9 +11,9 @@ export default function IntroductionDescription() {
         então cola na GC BARBER SHOP.
       </p>
       <p>Clique no botão abaixo para mais detalhes:</p>
-     <Link to="/more-details">
-     <Button />
-     </Link>
+      <Link to="/more-details">
+        <Button />
+      </Link>
     </div>
   );
 }
