@@ -11,7 +11,7 @@ export default function MoreDetails() {
     <>
       <Header />
       <main>
-        <h1>GC Barber Shop</h1>
+        <h1 className="title">GC Barber Shop</h1>
         <Informations />
         <SectionServices />
         <SectionHaircuts />
