@@ -21,9 +21,6 @@ a:hover {
   border-bottom: 1px solid #d9d9d9;
 }
 
-.logo {
-  height: 100px;
-}
 .logo img {
   padding: 5px 0;
   height: 100%;
@@ -56,9 +53,6 @@ a:hover {
 }
 
 @media (max-width: 960px) {
-  .logo {
-    height: 90px;
-  }
 
   a {
     text-decoration: none;

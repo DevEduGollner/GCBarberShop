@@ -2,7 +2,7 @@ import "./styles.css";
 
 export default function InformationContact() {
   return (
-    <html>
+    <section className="informations-contact-container">
         <div className="informations-contact-content">
       <h1>Fale Conosco</h1>
 
@@ -25,7 +25,6 @@ export default function InformationContact() {
       <h2>Obs:</h2>
       <p>Atendemos com agendamento mas também por ordem de chegada em caso de não agendamento.</p>
     </div>
-    </html>
-    
+    </section>
   );
 }
