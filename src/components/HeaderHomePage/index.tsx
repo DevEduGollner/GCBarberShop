@@ -58,7 +58,7 @@ export default function HeaderHomePage() {
             <a href="">Sobre Nós</a>
           </li>
           <li className="nav-item">
-            <a href="">Fale Conosco</a>
+            <a onClick={contactsShow}>Fale Conosco</a>
           </li>
         </ul>
       </div>
