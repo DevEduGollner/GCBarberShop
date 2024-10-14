@@ -1,4 +1,5 @@
 import './styles.css';
+import imgLogo from '../../assets/GCBarber-Logo.png';
 
 export default function Footer() {
     return (
@@ -24,7 +25,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="footer-img">
-            <img src="assets/GCBarber-Logo.png" alt="" />
+            <img src={imgLogo} alt="Logo" />
           </div>
         </div>
       </footer>
