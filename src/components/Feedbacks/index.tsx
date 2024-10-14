@@ -12,11 +12,13 @@ export default function Feedbacks() {
         </p>
         <div className="card-feedback-bottom">
         <p>- Eduardo Gollner</p>
-        <span className="estrela">&#9733;</span>
-        <span className="estrela">&#9733;</span>
-        <span className="estrela">&#9733;</span>
-        <span className="estrela">&#9733;</span>
-        <span className="estrela">&#9733;</span>
+        <div className="avaliable">
+        <span className="star">&#9733;</span>
+        <span className="star">&#9733;</span>
+        <span className="star">&#9733;</span>
+        <span className="star">&#9733;</span>
+        <span className="star">&#9733;</span>
+        </div>
         </div>
       </div>
 
@@ -24,11 +26,13 @@ export default function Feedbacks() {
         <p>Corte fera demais, manda muito mano!! tmjj sempre.</p>
         <div className="card-feedback-bottom">
         <p>- Gabriel Simas</p>
-        <span className="estrela">&#9733;</span>
-        <span className="estrela">&#9733;</span>
-        <span className="estrela">&#9733;</span>
-        <span className="estrela">&#9733;</span>
-        <span className="estrela">&#9733;</span>
+        <div className="avaliable"> 
+        <span className="star">&#9733;</span>
+        <span className="star">&#9733;</span>
+        <span className="star">&#9733;</span>
+        <span className="star">&#9733;</span>
+        <span className="star">&#9733;</span> 
+        </div>
         </div>
       </div>
 
@@ -36,11 +40,13 @@ export default function Feedbacks() {
         <p>O reflexo ficou bala mano, bem demais, e o atendimento também é diferenciado.</p>
         <div className="card-feedback-bottom">
         <p>- Josué</p>
-        <span className="estrela">&#9733;</span>
-        <span className="estrela">&#9733;</span>
-        <span className="estrela">&#9733;</span>
-        <span className="estrela">&#9733;</span>
-        <span className="estrela">&#9733;</span>
+        <div className="avaliable">
+        <span className="star">&#9733;</span>
+        <span className="star">&#9733;</span>
+        <span className="star">&#9733;</span>
+        <span className="star">&#9733;</span>
+        <span className="star">&#9733;</span>
+        </div>
         </div>
       </div>
 
@@ -48,11 +54,27 @@ export default function Feedbacks() {
         <p>Sempre surpreende no corte irmão, meu barbeiro titular!! Recomendo muito.</p>
         <div className="card-feedback-bottom">
         <p>- Matheuzin</p>
-        <span className="estrela">&#9733;</span>
-        <span className="estrela">&#9733;</span>
-        <span className="estrela">&#9733;</span>
-        <span className="estrela">&#9733;</span>
-        <span className="estrela">&#9733;</span>
+        <div className="avaliable">
+        <span className="star">&#9733;</span>
+        <span className="star">&#9733;</span>
+        <span className="star">&#9733;</span>
+        <span className="star">&#9733;</span>
+        <span className="star">&#9733;</span>
+        </div>
+        </div>
+        </div>
+
+        <div className="card-feedback">
+        <p>Excelente profissional, gente boa demais e afiado nos cortes, vou recomendar pra geral mano, só força.</p>
+        <div className="card-feedback-bottom">
+        <p>- Luizin</p>
+        <div className="avaliable">
+        <span className="star">&#9733;</span>
+        <span className="star">&#9733;</span>
+        <span className="star">&#9733;</span>
+        <span className="star">&#9733;</span>
+        <span className="star">&#9733;</span>
+        </div>
         </div>
 
       </div>
