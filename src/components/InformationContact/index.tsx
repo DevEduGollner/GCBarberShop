@@ -1,6 +1,12 @@
 import "./styles.css";
 
 export default function InformationContact() {
+
+  function closeContacts() {
+    const sectionContacts = document.querySelector(".informations-contact-container");
+    sectionContacts?.classList.remove("active");
+  }
+
   return (
     <section className="informations-contact-container">
       <div className="informations-contact-content">
@@ -28,8 +34,7 @@ export default function InformationContact() {
           não agendamento.
         </p>
         <div className="btn-observation">
-     
-          <button>Fechar</button>
+          <button onClick={closeContacts}>Fechar</button>
         </div>
       </div>
     </section>
