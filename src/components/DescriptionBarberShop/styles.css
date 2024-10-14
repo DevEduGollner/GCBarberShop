@@ -1,0 +1,46 @@
+h1 {
+  text-align: center;
+  color: #d9d9d9;
+  margin: 15px 0;
+  text-transform: uppercase;
+}
+
+.home-page-descriptions-barber-shop {
+  display: flex;
+}
+
+.card-description-barber-shop-left {
+  background-color: #232323;
+  width: 50vw;
+  padding: 20px;
+  & h2 {
+    text-align: center;
+    color: #d9d9d9;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+}
+
+.card-description-barber-shop-left p {
+  font-size: 18px;
+  color: #d9d9d9;
+  font-weight: 500;
+}
+
+.card-description-barber-shop-right p {
+  font-size: 18px;
+  color: #d9d9d9;
+  font-weight: 500;
+}
+
+.card-description-barber-shop-right {
+  background-color: #222222;
+  width: 50vw;
+  padding: 20px;
+  & h2 {
+    text-align: center;
+    color: #d9d9d9;
+    margin-bottom: 20px;
+  }
+}
