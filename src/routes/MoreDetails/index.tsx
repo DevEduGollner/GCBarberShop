@@ -1,3 +1,4 @@
+import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Informations from "../../components/Informations";
 import SectionHaircuts from "../../components/SectionHaircuts";
@@ -16,6 +17,7 @@ export default function MoreDetails() {
         <SectionHaircuts />
         <SectionLocation />
       </main>
+      <Footer />
     </>
   );
 }
