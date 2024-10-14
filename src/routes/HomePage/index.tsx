@@ -1,3 +1,5 @@
+import DescriptionBarberShop from "../../components/DescriptionBarberShop";
+import Feedbacks from "../../components/Feedbacks";
 import HeaderHomePage from "../../components/HeaderHomePage";
 import InformationContact from "../../components/InformationContact";
 import IntroductionDescription from "../../components/IntroductionDescription";
@@ -15,9 +17,16 @@ export default function HomePage() {
           </div>
         </section>
 
+        <section className="home-page-description-barbershop">
+<DescriptionBarberShop />
+</section>
+
         <section className="home-page-feedbacks">
-          
+         <Feedbacks /> 
         </section>
+
+
+  
       </main>
       <InformationContact />
     </>
