@@ -21,6 +21,9 @@ a {
   border-bottom: 1px solid #d9d9d9;
 }
 
+.logo {
+  height: 100px;
+}
 .logo img {
   padding: 5px 0;
   height: 100%;
@@ -53,15 +56,11 @@ a {
 }
 
 @media (max-width: 960px) {
-
-  a {
-    text-decoration: none;
-    color: #d9d9d9;
+  .nav-item a {
     font-size: 16px;
-    text-transform: uppercase;
   }
-  
-  a:hover {
+
+  .nav-item a:hover {
     font-size: 18px;
     border-bottom: 1px solid #d9d9d9;
   }
@@ -96,5 +95,9 @@ a {
   }
   .open {
     display: block;
+  }
+
+  .logo {
+    height: 90px;
   }
 }

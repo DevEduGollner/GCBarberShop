@@ -1,8 +1,8 @@
-.section-location {
+#section-location {
   text-align: center;
   width: 100%;
 }
 
-.section-location iframe {
+#section-location iframe {
   margin: 20px;
 }

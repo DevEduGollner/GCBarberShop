@@ -14,7 +14,7 @@ export default function InformationBarberShop() {
         </div>
         <div className="invitation">
           <h3>Quer um corte fera com muita resenha?</h3>
-          <button>Quero</button>
+          <a href="#section-location"><button>Quero</button></a>
         </div>
       </div>
     );
