@@ -1,5 +1,5 @@
-import HomePage from "./routes/HomePage";
+import InformationContact from "./components/InformationContact";
 
 export default function App() {
-  return <HomePage />;
+  return <InformationContact />;
 }

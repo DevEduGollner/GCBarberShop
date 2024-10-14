@@ -9,14 +9,14 @@ header {
   justify-content: space-between;
 }
 
-a {
+.list-navegation a {
   text-decoration: none;
   color: #d9d9d9;
   font-size: 16px;
   text-transform: uppercase;
 }
 
-a:hover {
+.list-navegation a:hover {
   font-size: 18px;
   border-bottom: 1px solid #d9d9d9;
 }
