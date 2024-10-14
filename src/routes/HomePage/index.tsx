@@ -14,6 +14,10 @@ export default function HomePage() {
             <IntroductionDescription />
           </div>
         </section>
+
+        <section className="home-page-feedbacks">
+          
+        </section>
       </main>
       <InformationContact />
     </>

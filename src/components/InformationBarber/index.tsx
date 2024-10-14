@@ -1,5 +1,5 @@
 import './styles.css';
-import imgBarber from '../../assets/Barber.gif';
+import imgBarber from '../../assets/foto-gc.jpg';
 
 export default function InformationBarber() {
     return (
