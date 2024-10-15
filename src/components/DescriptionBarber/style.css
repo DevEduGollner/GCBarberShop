@@ -1,0 +1,40 @@
+.section-description-barber {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  height: 100vh;
+  width: 100%;
+  z-index: 1;
+  display: none;
+}
+
+.section-description-barber.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description-barber-content {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+  height: 750px;
+  width: 700px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.section-description-barber h1 {
+  text-align: center;
+  color: #d9d9d9;
+}
+
+.description-barber {
+  background-color: #232323;
+}
+
+.section-description-barber p {
+  text-align: center;
+  color: #d9d9d9;
+}

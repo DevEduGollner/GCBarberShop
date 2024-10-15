@@ -3,7 +3,7 @@ import "./style.css";
 export default function DescriptionBarber() {
   return (
     <section className="section-description-barber">
-      <div>
+      <div className="description-barber-content">
         <h1>Sobre Mim</h1>
         <div className="description-barber">
           <p>
