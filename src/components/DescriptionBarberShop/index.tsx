@@ -29,7 +29,7 @@ export default function DescriptionBarberShop() {
             <p>
               - Preços ótimos.
               <Link to="/more-details">
-                Clique aqui para conferir os preços
+                 Clique aqui para conferir os preços
               </Link>
               .
             </p>

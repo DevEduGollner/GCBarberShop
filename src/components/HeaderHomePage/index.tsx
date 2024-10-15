@@ -33,7 +33,9 @@ export default function HeaderHomePage() {
       <header>
         <nav className="nav-bar container">
           <div className="logo">
-            <img src={imgLogo} alt="Logo" />
+            <Link to="/">
+              <img src={imgLogo} alt="Logo" />
+            </Link>
           </div>
 
           <div className="list-navegation">

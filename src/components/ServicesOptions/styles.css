@@ -9,7 +9,7 @@
 .services-item {
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  height: 280px;
+  height: 360px;
   width: 260px;
   border-radius: 10px;
   text-align: center;
@@ -21,19 +21,27 @@
 
 .services-item:hover {
   background-color: #232323;
-  height: 300px;
+  height: 380px;
   width: 280px;
   padding: 10px;
   border: 1px solid #d9d9d9d9;
   & h3,
   h4 {
-    font-size: 20px;
+    font-size: 21.5px;
   }
 }
 
+.services-item:hover h3 {
+  font-size: 21.5px;
+}
+
+.services-item:hover h4 {
+  font-size: 21.5px;
+}
+
 .img-services {
-  height: 160px;
-  width: 140px;
+  height: 200px;
+  width: 170px;
   margin: 10px auto;
 }
 
@@ -41,6 +49,7 @@
   height: 100%;
   width: 100%;
   border-radius: 7px 7px 0 0;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
 }
 
 .description-services {
@@ -48,25 +57,34 @@
   padding-top: 10px;
   border-top: 1px solid #d9d9d9;
 }
+
 .description-services h3 {
   text-align: center;
   color: #d9d9d9;
+  margin-top: 8px;
+  font-size: 20px;
 }
 
 .description-services h4 {
   color: #d9d9d9;
-  font-size: 20px;
+  font-size: 21px;
 }
 
 @media (max-width: 960px) {
   .services-item:hover {
-    height: 280px;
+    height: 360px;
     width: 260px;
     border: 1px solid #d9d9d9d9;
-    & h3,
-    h4 {
-      font-size: 20px;
-    }
+  }
+
+  .description-services h3 {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  .services-item h3,
+  h4 {
+    font-size: 16px;
   }
 }
 
@@ -80,7 +98,7 @@
 
 @media (max-width: 576px) {
   .services-item {
-    height: 260px;
+    height: 320px;
     width: 240px;
     border-radius: 10px;
     text-align: center;
@@ -88,15 +106,28 @@
     border: 1px solid #333333;
   }
 
+  .services-item h3,
+  h4 {
+    font-size: 18px;
+  }
+
   .img-services {
-    height: 160px;
-    width: 140px;
+    height: 180px;
+    width: 160px;
     margin: 0 auto;
   }
 
   .services-item:hover {
-    height: 260px;
+    height: 320px;
     width: 240px;
     border: 1px solid #d9d9d9d9;
+  }
+
+  .services-item:hover h3 {
+    font-size: 18px;
+  }
+
+  .services-item:hover h4 {
+    font-size: 21px;
   }
 }

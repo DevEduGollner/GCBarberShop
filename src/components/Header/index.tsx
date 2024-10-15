@@ -22,62 +22,64 @@ export default function Header() {
   }
 
   function contactsShow() {
-    const sectionContacts = document.querySelector(".informations-contact-container");
+    const sectionContacts = document.querySelector(
+      ".informations-contact-container"
+    );
     sectionContacts?.classList.add("active");
-    }
-  
-  return (
-  <>
-   <header>
-      <nav className="nav-bar container">
-        <div className="logo">
-          <img src={imgLogo} alt="Logo" />
-        </div>
+  }
 
-        <div className="list-navegation">
+  return (
+    <>
+      <header>
+        <nav className="nav-bar container">
+          <div className="logo">
+            <Link to="/">
+              <img src={imgLogo} alt="Logo" />
+            </Link>
+          </div>
+
+          <div className="list-navegation">
+            <ul>
+              <li className="nav-item">
+                <Link to="/">Inicio</Link>
+              </li>
+              <li className="nav-item">
+                <a href="#services-section">Serviços</a>
+              </li>
+              <li>
+                <a href="#section-location">Endereço</a>
+              </li>
+              <li className="nav-item">
+                <a onClick={contactsShow}>Fale Conosco</a>
+              </li>
+            </ul>
+          </div>
+
+          <div className="mobile-menu-icon">
+            <button onClick={menuShow}>
+              <img className="icon" src={menuItem} alt="Abrir Opções" />
+            </button>
+          </div>
+        </nav>
+
+        <div className="mobile-menu">
           <ul>
             <li className="nav-item">
-             <Link to="/">Inicio</Link>
+              <Link to="/">Inicio</Link>
             </li>
             <li className="nav-item">
               <a href="#services-section">Serviços</a>
             </li>
-            <li className="nav-item">
-              <a href="">Sobre Nós</a>
+            <li>
+              <a href="section-location">Endereço</a>
             </li>
             <li className="nav-item">
               <a onClick={contactsShow}>Fale Conosco</a>
             </li>
           </ul>
         </div>
-
-        <div className="mobile-menu-icon">
-          <button onClick={menuShow}>
-            <img className="icon" src={menuItem} alt="Abrir Opções" />
-          </button>
-        </div>
-      </nav>
-
-      <div className="mobile-menu">
-        <ul>
-          <li className="nav-item">
-          <Link to="/">Inicio</Link>
-          </li>
-          <li className="nav-item">
-            <a href="#services-section">Serviços</a>
-          </li>
-          <li className="nav-item">
-            <a href="">Sobre Nós</a>
-          </li>
-          <li className="nav-item">
-            <a onClick={contactsShow}>Fale Conosco</a>
-          </li>
-        </ul>
-      </div>
-    </header>
-    <InformationContact />
-  </>
-   
-
+      </header>
+      <InformationContact />
+    </>
   );
 }
