@@ -46,7 +46,7 @@ export default function Header() {
               <li className="nav-item">
                 <a href="#services-section">Serviços</a>
               </li>
-              <li>
+              <li className="nav-item">
                 <a href="#section-location">Endereço</a>
               </li>
               <li className="nav-item">
@@ -70,8 +70,8 @@ export default function Header() {
             <li className="nav-item">
               <a href="#services-section">Serviços</a>
             </li>
-            <li>
-              <a href="section-location">Endereço</a>
+            <li className="nav-item">
+              <a href="#section-location">Endereço</a>
             </li>
             <li className="nav-item">
               <a onClick={contactsShow}>Fale Conosco</a>
@@ -79,6 +79,7 @@ export default function Header() {
           </ul>
         </div>
       </header>
+
       <InformationContact />
     </>
   );
