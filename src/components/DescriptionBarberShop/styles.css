@@ -1,7 +1,7 @@
 h1 {
   text-align: center;
   color: #d9d9d9;
-margin-bottom: 15px;
+  margin-bottom: 15px;
   text-transform: uppercase;
 }
 
@@ -47,4 +47,25 @@ margin-bottom: 15px;
 
 .card-description-barber-shop-bottom-right a {
   margin-left: 5px;
+}
+
+@media (max-width: 576px) {
+  .card-description-barber-shop-left h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .card-description-barber-shop-left p {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .card-description-barber-shop-right h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .card-description-barber-shop-right p {
+    font-size: 16px;
+    font-weight: 400;
+  }
 }

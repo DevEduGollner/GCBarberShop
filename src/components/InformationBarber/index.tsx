@@ -1,32 +1,31 @@
-import './styles.css';
-import imgBarber from '../../assets/foto-gc.jpg';
-import DescriptionBarber from '../DescriptionBarber';
+import "./styles.css";
+import imgBarber from "../../assets/foto-gc.jpg";
+import InformationContact from "../InformationContact";
 
 export default function InformationBarber() {
-
-  function informationsBarberShow() {
+  function contactsShow() {
     const sectionContacts = document.querySelector(
-      ".section-description-barber"
+      ".informations-contact-container"
     );
     sectionContacts?.classList.add("active");
   }
 
-    return (
-      <>
-              <div className="information-barber">
-          <h2>Sobre Mim</h2>
-          <div className="apresentation-barber">
-            <img src={imgBarber} alt="Foto do Barbeiro" />
-            <div className="description-barber">
-              <p>
-              Seja muito bem vindo, meu nome é Gerson, sou barbeiro da GC BARBER e gostaria de me apresentar melhor:
-              </p>
-                <button onClick={informationsBarberShow}>Apresentar-se</button>
-            </div>
+  return (
+    <>
+      <div className="information-barber">
+        <h2>Sobre Mim</h2>
+        <div className="apresentation-barber">
+          <img src={imgBarber} alt="Foto do Barbeiro" />
+          <div className="description-barber">
+            <p>
+              Fala Galera, Gerson aqui, sou o barbeiro da GC BARBER SHOP e é um prazer enorme te-lô aqui, seja muito bem vindo e fique a vontade,
+              qualquer dúvida,
+              <a onClick={contactsShow}> Clique Aqui e Fale Conosco</a>
+            </p>
           </div>
         </div>
-        <DescriptionBarber />
-      </>
-
-    );
+      </div>
+      <InformationContact />
+    </>
+  );
 }
