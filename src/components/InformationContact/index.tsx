@@ -33,7 +33,7 @@ export default function InformationContact() {
           Atendemos com agendamento mas também por ordem de chegada em caso de
           não agendamento.
         </p>
-        <div className="btn-observation">
+        <div className="btn">
           <button onClick={closeContacts}>Fechar</button>
         </div>
       </div>

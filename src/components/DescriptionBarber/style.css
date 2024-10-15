@@ -18,9 +18,10 @@
 }
 
 .description-barber-content {
+  background-color: #232323;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
-  height: 750px;
-  width: 700px;
+  height: 70vh;
+  width: 90vw;
   border-radius: 20px;
   padding: 20px;
 }
@@ -30,11 +31,102 @@
   color: #d9d9d9;
 }
 
-.description-barber {
+.description-barber-informations {
   background-color: #232323;
 }
 
 .section-description-barber p {
   text-align: center;
   color: #d9d9d9;
+  font-size: 18px;
+}
+
+.btn {
+  width: 100%;
+  margin: 10px 0 0 10px;
+  justify-content: center;
+  display: flex;
+}
+button {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #d9d9d9;
+  color: #d9d9d9;
+  font-size: 18px;
+  text-transform: uppercase;
+  background-color: #232323;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+@media (max-width: 1350px) {
+  .description-barber-content {
+    background-color: #232323;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+    height: 650px;
+    width: 95vw;
+    border-radius: 20px;
+    padding: 20px;
+  }
+
+  .section-description-barber p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1140px) {
+  .description-barber-content {
+    background-color: #232323;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+    height: 95vh;
+    width: 95vw;
+    border-radius: 20px;
+    padding: 20px;
+  }
+  .section-description-barber p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .description-barber-content {
+    background-color: #232323;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+    height: 95vh;
+    width: 95vw;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 15px;
+  }
+  .section-description-barber p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .description-barber-content {
+    background-color: #232323;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+    height: 95vh;
+    width: 95vw;
+    border-radius: 20px;
+    padding: 20px;
+  }
+  .section-description-barber p {
+    font-size: 12px;
+  }
+
+  button {
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #d9d9d9;
+    color: #d9d9d9;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: #232323;
+    cursor: pointer;
+    transition: 0.4s;
+  }
 }

@@ -1,5 +1,6 @@
 footer {
     height: 150px;
+    width: 100%;
     background-color: #000000;
   }
   
@@ -35,8 +36,31 @@ footer {
     color: #d9d9d9;
   }
   
+  .footer-img {
+    display: flex;
+    align-items: center;
+  }
   .footer-img img {
     height: 130px;
     width: 130px;
   }
   
+@media(max-width: 576px) {
+  .footer-contacts a {
+    font-size: 12px;
+  }
+  .footer-img img {
+    height: 90px;
+    width: 90px;
+  }
+
+  footer {
+    width: 100%;
+    height: 120px;
+    background-color: #000000;
+  }
+
+  .footer-informations h2 {
+    font-size: 16px;
+  }
+}
